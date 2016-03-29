@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task4</title>
+
+<style type="text/css">
+
+	#father{
+			width: 400px;
+			height: 200px;
+			background-color: #ccc;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left:0;
+			margin: auto;
+			/*width: 100%;
+			height: 100%;*/
+		}
+
+	.children{
+		background-color: #fc0;
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+
+	#left{
+		top: 0;
+		left: 0;
+		border-radius: 0 0 50px 0;
+	}
+
+	#right{
+		right: 0;
+		bottom: 0;
+		border-radius: 50px 0 0 0;
+	}
+
+</style>
+
+</head>
+<body>
+	<div id="father">
+		<div id="left" class="children"></div>
+		<div id="right" class="children"></div>
+	</div>
+</body>
+</html>
